@@ -55,19 +55,44 @@ a.link:hover
 {
  text-align:center;
 }
-.circle
+.circle1
 {
-    border-radius: 125px;
-    width:250px;
-    height:250px; 
-    background-color:black;
+    border-radius: 50%;
+    width:225px;
+    height:225px; 
+    border:10px solid;
+    background-color:#262626;
     margin:auto;
     text-align:center;
+    border:20px solid #DEDEDE;
+}
+.circle2
+{
+    border-radius: 50%;
+    width:200px;
+    height:200px; 
+    border:10px solid;
+    background-color:#262626;
+    margin:auto;
+    text-align:center;
+    border:20px solid transparent;
+}
+.circle3
+{
+    border-radius: 50%;
+    width:200px;
+    height:200px; 
+    border:10px solid;
+    background-color:#262626;
+    margin:auto;
+    text-align:center;
+    border:20px solid transparent;
 }
 .textcolor
 {
  color:white;
- padding-top:80px;
+ padding-top:56px;
+ padding-bottom:80px;
  font-family: 'Ubuntu',sans-serif;
  font-weight: bold;
  font-size: 40px;
@@ -76,10 +101,51 @@ a.link:hover
  {
   text-decoration:none;
  }
- a.cirlink:hover
+ .circle1:hover
  {
-  color:red;
+  border: 20px solid #FF4800;
+  transition:1s;
+  color: #FF4800;
  }
+ .circle2:hover
+ {
+  border:20px solid #FF4800;
+  transition:1s;
+ }	
+ .circle3:hover
+ {
+  background-image:url(../sc.png);
+ }
+ .textcolor:hover
+ {
+  transition: 1s;
+  color: #FF4800;
+ }
+ #textcolor1
+{
+ color:white;
+ padding-top:56px;
+ padding-bottom:80px;
+ font-family: 'Ubuntu',sans-serif;
+ font-weight: bold;
+ font-size: 40px;
+ }
+
+ #textcolor1:hover
+ {
+  transition: 1s;
+  color: #FF4800;
+  opacity:0.1;
+ }
+
+ #buy
+ {
+  margin:auto;
+  text-align:center;
+  }
+  .image
+  {
+    
 /* #Page Styles
 ================================================== */
 
