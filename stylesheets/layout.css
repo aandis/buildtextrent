@@ -37,47 +37,35 @@ img
 {
  text-decoration:none;
 }
+ul
+{
+    list-style-type: none;
+}
 .limit
 {
  width:30%;
- border-top:1px solid;
+ border-top:1px solid #D3D3D3;
  text-align:center;
- padding-top:10px;
+ padding-top:2px;
  display:inline-block;
  margin:2px;
  margin-bottom:20px;
+ font-size: 20px;
+ font-family: "Georgia","Times New Roman",serif; 
 }
 a.link:hover
 {
- color:red;
+ color:#FF4812;
+ border-color:#FF4812;
+ transition:1s;
 }
 .start
 {
  text-align:center;
+ font-weight: normal;
+ margin-bottom:20px;
 }
-.circle1
-{
-    border-radius: 50%;
-    width:225px;
-    height:225px; 
-    border:10px solid;
-    background-color:#262626;
-    margin:auto;
-    text-align:center;
-    border:20px solid #DEDEDE;
-}
-.circle2
-{
-    border-radius: 50%;
-    width:200px;
-    height:200px; 
-    border:10px solid;
-    background-color:#262626;
-    margin:auto;
-    text-align:center;
-    border:20px solid transparent;
-}
-.circle3
+.circle
 {
     border-radius: 50%;
     width:200px;
@@ -97,55 +85,61 @@ a.link:hover
  font-weight: bold;
  font-size: 40px;
  }
+ //.textcolor
+{
+ position:relative;
+ color:white;
+ padding-top:;
+ padding-bottom:px;
+ font-family: 'Ubuntu',sans-serif;
+ font-weight: bold;
+ font-size: 40px;
+//}
  .cirlink
  {
   text-decoration:none;
  }
- .circle1:hover
+ .circle:hover
  {
   border: 20px solid #FF4800;
   transition:1s;
   color: #FF4800;
- }
- .circle2:hover
- {
-  border:20px solid #FF4800;
-  transition:1s;
- }	
- .circle3:hover
- {
-  background-image:url(../sc.png);
+  display:block;
  }
  .textcolor:hover
  {
   transition: 1s;
   color: #FF4800;
  }
- #textcolor1
-{
- color:white;
- padding-top:56px;
- padding-bottom:80px;
- font-family: 'Ubuntu',sans-serif;
- font-weight: bold;
- font-size: 40px;
- }
-
- #textcolor1:hover
- {
-  transition: 1s;
-  color: #FF4800;
-  opacity:0.1;
- }
 
  #buy
  {
   margin:auto;
   text-align:center;
-  }
-  .image
+  margin-top:50px;
+  font-size:46px;
+  margin-bottom:40px;
+ }
+  .pfoot
   {
-    
+	display:inline-block;
+	margin-right:10px;
+  }
+  #two
+  {
+	margin-bottom:10px;
+  }
+  #pref
+  {
+	margin-left:7px;
+  }
+  .font
+  {
+	font-family: "Georgia","Times New Roman",serif;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 34px;
+  }
 /* #Page Styles
 ================================================== */
 
