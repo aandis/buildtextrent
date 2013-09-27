@@ -102,7 +102,8 @@ a.link:hover
  .circle:hover
  {
   border: 20px solid #FF4800;
-  transition:1s;
+  transition:1s ease-in-out 0s;
+  
   color: #FF4800;
   display:block;
  }
