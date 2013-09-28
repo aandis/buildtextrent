@@ -33,13 +33,13 @@ img
 {
  background-image:url(../background.jpg);
 }
-#line li a
+a:hover, a:visited, a:link, a:active
 {
- text-decoration:none;
+    text-decoration: none;
 }
 ul
 {
-    list-style-type: none;
+   list-style-type: none;
 }
 .limit
 {
@@ -128,11 +128,19 @@ a.link:hover
   }
   #two
   {
-	margin-bottom:10px;
+	bottom:33px;
+	position:relative;
+  }
+  #three
+  {
+	bottom:32px;
+	position:relative;
   }
   #pref
   {
+	margin-top:15px;
 	margin-left:7px;
+	text-align:center;
   }
   .font
   {

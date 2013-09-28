@@ -49,13 +49,13 @@
 					<div id="line">
 						<ul>
 							<a class="link" href="http://www.textrent.in/index.html#title">
-								<li class="limit">Rent Now</li>
+								<li class="limit">Rent Now </li>
 							</a>
 							<a class="link" href="http://www.textrent.in/services.html#title">
-								<li class="limit">Learn More</li>
+								<li class="limit">  Learn More  </li>
 							</a>
 							<a class="link" href="http://www.textrent.in/#footer">
-								<li class="limit">Say Hello</li>
+								<li class="limit">Say Hello  </li>
 							</a>
 						</ul>
 						<div class="start"><h2>Start Renting <span style="color:#FF4812">Now</span> at <span style="color:#FF4812">30%</span> of MRP! <br>
@@ -94,7 +94,7 @@
           <ul id="pref">
 				<div class="pfoot"><img src="http://www.textrent.in/img/order.png"><li class="font">Place an order with<br> us either online or<br> <span style="margin-left:40px">by phone.</span></li></div>
 				<div class="pfoot" id="two"><img src="http://www.textrent.in/img/receive.png"><li class="font">Recieve your order<br><span style="margin-left:40px"> within 7 days.</span></li></div>
-				<div class="pfoot"><img src="http://www.textrent.in/img/use.png" class="two"><li class="font">Use your books for<br> the whole semester.</li></div>
+				<div class="pfoot" id="three"><img src="http://www.textrent.in/img/use.png" class="two"><li class="font">Use your books for<br> the whole semester.</li></div>
 				<div class="pfoot"><img src="http://www.textrent.in/img/return.png"><li class="font">Once you're done,<br>notify us and we'll<br>schedule a pickup.</li></div>
           </ul>
           </div>
