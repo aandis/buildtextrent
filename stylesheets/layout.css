@@ -53,6 +53,11 @@ ul
  font-size: 20px;
  font-family: "Georgia","Times New Roman",serif; 
 }
+.limit:hover
+{
+	 border-color:#FF4812;
+	 transition:1s;
+}
 a.link:hover
 {
  color:#FF4812;
@@ -68,13 +73,14 @@ a.link:hover
 .circle
 {
     border-radius: 50%;
-    width:200px;
-    height:200px; 
+    width:210px;
+    height:210px; 
     border:10px solid;
     background-color:#262626;
     margin:auto;
+    margin-top:15px;
     text-align:center;
-    border:20px solid transparent;
+    border:15px solid transparent;
 }
 .textcolor
 {
@@ -85,31 +91,20 @@ a.link:hover
  font-weight: bold;
  font-size: 40px;
  }
- //.textcolor
-{
- position:relative;
- color:white;
- padding-top:;
- padding-bottom:px;
- font-family: 'Ubuntu',sans-serif;
- font-weight: bold;
- font-size: 40px;
-//}
  .cirlink
  {
   text-decoration:none;
  }
  .circle:hover
  {
-  border: 20px solid #FF4800;
-  transition:1s ease-in-out 0s;
-  
+  border: 15px solid #FF4800;
+  transition: all 0.4s ease-in-out 0s;
   color: #FF4800;
   display:block;
  }
  .textcolor:hover
  {
-  transition: 1s;
+  transition: all 0.4s ease-in-out 0s;
   color: #FF4800;
  }
 
